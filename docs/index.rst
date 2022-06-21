@@ -6,8 +6,6 @@
 Welcome to TxADM's documentation!
 =================================
 
-
-
 .. toctree::
    :maxdepth: 2
    :caption: Part I 
@@ -31,7 +29,7 @@ Indices and tables
 
 
 .. note::
-
+   
    This project is under active development.
 
 
