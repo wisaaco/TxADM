@@ -7,17 +7,22 @@ Welcome to TxADM's documentation!
 =================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Part I 
    
-   notebooks/Chapter1/PythonOverview
+   notebooks/Part1/01_basics
+   notebooks/Part1/R/02_R_Overview
+   notebooks/Part1/R/03_conceptos_basicos_R
+   notebooks/Part1/R/04_ejercicios
+   notebooks/Part1/R/05_Simple_data_structures
+
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Part II 
    
-   notebooks/Chapter1/PythonOverview
+
 
 
 Indices and tables
