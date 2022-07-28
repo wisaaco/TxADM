@@ -15,6 +15,7 @@ Welcome to TxADM's documentation!
    notebooks/Part1/R/03_conceptos_basicos_R
    notebooks/Part1/R/04_ejercicios
    notebooks/Part1/R/05_Simple_data_structures
+   notebooks/Part1/R/06_ejercicios_vectores
 
 
 
