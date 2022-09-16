@@ -17,6 +17,7 @@ Welcome to TxADM's documentation!
    notebooks/Part1/02_R_Dataframes/0_Datos
    notebooks/Part1/02_R_Dataframes/01_Introduccion
    notebooks/Part1/03_R_Descripcion/01_Wrangling
+   notebooks/Part1/03_R_Descripcion/03_Relational_Data
 
 
 
