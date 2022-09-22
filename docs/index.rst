@@ -19,6 +19,8 @@ Welcome to TxADM's documentation!
    notebooks/Part1/03_R_Descripcion/01_Wrangling
    notebooks/Part1/03_R_Descripcion/03_Relational_Data
    notebooks/Part1/03_R_Descripcion/04_Visualizacion
+   notebooks/Part1/Git/01_Introduccion
+
 
 
 
