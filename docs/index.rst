@@ -42,13 +42,23 @@ Part 2
 =================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Advanced Python
+   :maxdepth: 1
+   :caption: Advanced Python: Numpy
    
    notebooks/Part2/01_NumpyNotes/01_numpy_basics
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Data pipelines
+
    notebooks/Part2/02_Datapipelines/01_basics
    notebooks/Part2/02_Datapipelines/02_cron
    notebooks/Part2/02_Datapipelines/03_airflow
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Machine Learning techniques
+
    notebooks/Part2/03_MachineLearningNotes/01_Introduction
 
 
