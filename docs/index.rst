@@ -6,23 +6,51 @@
 Welcome to TxADM's documentation!
 =================================
 
+
+Part 1
+=================================
+
 .. toctree::
-   :maxdepth: 2
-   :caption: Part I 
-   
-   notebooks/Part1/PythonOverview
-   notebooks/Part2/01_NumpyNotes/01_numpy_basics
+
+   :maxdepth: 1
+   :caption: Introducción
+
+   notebooks/Part1/01_basics
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Introducción a R
+
+   notebooks/Part1/01_R/02_R_Overview
+   notebooks/Part1/01_R/03_conceptos_basicos_R
+   notebooks/Part1/01_R/05_Simple_data_structures
+   notebooks/Part1/02_R_Dataframes/0_Datos
+   notebooks/Part1/02_R_Dataframes/01_Introduccion
+   notebooks/Part1/03_R_Descripcion/01_Wrangling
+   notebooks/Part1/03_R_Descripcion/02_Relational_Data
+   notebooks/Part1/03_R_Descripcion/03_Time_Series
+   notebooks/Part1/03_R_Descripcion/04_Visualizacion
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Git
+
+   notebooks/Part1/Git/01_Introduccion
+
+
+Part 2
+=================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Part II 
+   :caption: Advanced Python
    
-   notebooks/Part1/PythonOverview
    notebooks/Part2/01_NumpyNotes/01_numpy_basics
    notebooks/Part2/02_Datapipelines/01_basics
    notebooks/Part2/02_Datapipelines/02_cron
    notebooks/Part2/02_Datapipelines/03_airflow
    notebooks/Part2/03_MachineLearningNotes/01_Introduction
+
 
 
 Indices and tables
