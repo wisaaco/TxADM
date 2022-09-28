@@ -43,7 +43,7 @@ Part 2
 
 .. toctree::
    :maxdepth: 1
-   :caption: Advanced Python: Numpy
+   :caption: Advanced Python
    
    notebooks/Part2/01_NumpyNotes/01_numpy_basics
 
