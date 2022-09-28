@@ -6,14 +6,16 @@
 Welcome to TxADM's documentation!
 =================================
 
-Papapapapa
+
+Part 1
+=================================
 
 .. toctree::
+
    :maxdepth: 1
    :caption: Introducción
 
    notebooks/Part1/01_basics
-
 
 .. toctree::
    :maxdepth: 1
@@ -36,13 +38,18 @@ Papapapapa
    notebooks/Part1/Git/01_Introduccion
 
 
-
-
+Part 2
+=================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Part II 
+   :caption: Advanced Python
    
+   notebooks/Part2/01_NumpyNotes/01_numpy_basics
+   notebooks/Part2/02_Datapipelines/01_basics
+   notebooks/Part2/02_Datapipelines/02_cron
+   notebooks/Part2/02_Datapipelines/03_airflow
+   notebooks/Part2/03_MachineLearningNotes/01_Introduction
 
 
 
