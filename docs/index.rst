@@ -10,14 +10,16 @@ Welcome to TxADM's documentation!
    :maxdepth: 2
    :caption: Part I 
    
-   notebooks/Chapter1/PythonOverview
+   notebooks/Part1/PythonOverview
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Part II 
    
-   notebooks/Chapter1/PythonOverview
+   notebooks/Part2/01_NumpyNotes
+   notebooks/Part2/02_Datapipelines
+   notebooks/Part2/03_MachineLearningNotes
 
 
 Indices and tables
