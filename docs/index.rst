@@ -11,12 +11,13 @@ Welcome to TxADM's documentation!
    :caption: Part I 
    
    notebooks/Part1/PythonOverview
-
+   notebooks/Part2/01_NumpyNotes/01_numpy_basics
 
 .. toctree::
    :maxdepth: 2
    :caption: Part II 
    
+   notebooks/Part1/PythonOverview
    notebooks/Part2/01_NumpyNotes/01_numpy_basics
    notebooks/Part2/02_Datapipelines/01_basics
    notebooks/Part2/02_Datapipelines/02_cron
