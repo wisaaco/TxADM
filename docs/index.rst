@@ -17,9 +17,11 @@ Welcome to TxADM's documentation!
    :maxdepth: 2
    :caption: Part II 
    
-   notebooks/Part2/01_NumpyNotes
-   notebooks/Part2/02_Datapipelines
-   notebooks/Part2/03_MachineLearningNotes
+   notebooks/Part2/01_NumpyNotes/01_numpy_basics
+   notebooks/Part2/02_Datapipelines/01_basics
+   notebooks/Part2/02_Datapipelines/02_cron
+   notebooks/Part2/02_Datapipelines/03_airflow
+   notebooks/Part2/03_MachineLearningNotes/01_Introduction
 
 
 Indices and tables
