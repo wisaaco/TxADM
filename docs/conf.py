@@ -59,3 +59,4 @@ highlight_language = 'python3'
 html_static_path = ['_static']
 
 nbsphinx_allow_errors = True
+latex_engine = 'xelatex'
