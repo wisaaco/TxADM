@@ -2,5 +2,5 @@ version: 2
 formats: all
 python:
   install:
-    - requirements: doc/requirements.txt
+    - requirements: docs/requirements.txt
   system_packages: true
