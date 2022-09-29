@@ -61,6 +61,11 @@ Part 2
 
    notebooks/Part2/03_MachineLearningNotes/01_Introduction
    notebooks/Part2/03_MachineLearningNotes/02_PredictiveModelling
+   notebooks/Part2/03_MachineLearningNotes/03_Activity_LinearRegression
+   notebooks/Part2/03_MachineLearningNotes/04_Regression
+   notebooks/Part2/03_MachineLearningNotes/04b_Ejercicio1
+   notebooks/Part2/03_MachineLearningNotes/04c_Ejercicio2
+   
 
 
 
