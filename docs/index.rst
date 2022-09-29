@@ -42,7 +42,7 @@ Part 2
 =================================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Librería Numpy
    
    notebooks/Part2/01_NumpyNotes/01_numpy_basics
@@ -60,6 +60,7 @@ Part 2
    :caption: Machine Learning techniques
 
    notebooks/Part2/03_MachineLearningNotes/01_Introduction
+   notebooks/Part2/03_MachineLearningNotes/02_PredictiveModelling
 
 
 
