@@ -10,11 +10,10 @@ Welcome to TxADM's documentation!
 Part 1
 =================================
 
-
 .. toctree::
 
    :maxdepth: 1
-   :caption: Introducción
+   :caption: Presentación
 
    notebooks/Part1/01_basics
 
@@ -37,6 +36,14 @@ Part 1
    :caption: Git
 
    notebooks/Part1/Git/01_Introduccion
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Introducción a Python
+
+   notebooks/Part1/05_Python/01_Introduction
+
 
 Part 2
 =================================
