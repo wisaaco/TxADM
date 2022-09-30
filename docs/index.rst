@@ -7,7 +7,11 @@ Welcome to TxADM's documentation!
 =================================
 
 
+Part 1
+=================================
+
 .. toctree::
+
    :maxdepth: 1
    :caption: Presentación
 
@@ -33,6 +37,7 @@ Welcome to TxADM's documentation!
 
    notebooks/Part1/Git/01_Introduccion
 
+
 .. toctree::
    :maxdepth: 1
    :caption: Introducción a Python
@@ -40,10 +45,33 @@ Welcome to TxADM's documentation!
    notebooks/Part1/05_Python/01_Introduction
 
 
+Part 2
+=================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Part II 
+   :caption: Librería Numpy
+   
+   notebooks/Part2/01_NumpyNotes/01_numpy_basics
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Data pipelines
+
+   notebooks/Part2/02_Datapipelines/01_basics
+   notebooks/Part2/02_Datapipelines/02_cron
+   notebooks/Part2/02_Datapipelines/03_airflow
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Machine Learning techniques
+
+   notebooks/Part2/03_MachineLearningNotes/01_Introduction
+   notebooks/Part2/03_MachineLearningNotes/02_PredictiveModelling
+   notebooks/Part2/03_MachineLearningNotes/03_Activity_LinearRegression
+   notebooks/Part2/03_MachineLearningNotes/04_Regression
+   notebooks/Part2/03_MachineLearningNotes/04b_Ejercicio1
+   notebooks/Part2/03_MachineLearningNotes/04c_Ejercicio2
    
 
 
