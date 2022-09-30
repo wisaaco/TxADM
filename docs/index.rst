@@ -10,10 +10,9 @@ Papapapapa
 
 .. toctree::
    :maxdepth: 1
-   :caption: Introducción
+   :caption: Presentación
 
    notebooks/Part1/01_basics
-
 
 .. toctree::
    :maxdepth: 1
@@ -35,6 +34,11 @@ Papapapapa
 
    notebooks/Part1/Git/01_Introduccion
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Introducción a Python
+
+   notebooks/Part1/05_Python/01_Introduction
 
 
 
