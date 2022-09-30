@@ -6,7 +6,6 @@
 Welcome to TxADM's documentation!
 =================================
 
-Papapapapa
 
 .. toctree::
    :maxdepth: 1
@@ -39,7 +38,6 @@ Papapapapa
    :caption: Introducción a Python
 
    notebooks/Part1/05_Python/01_Introduction
-
 
 
 
