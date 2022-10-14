@@ -43,6 +43,11 @@ Part 1
    :caption: Introducción a Python
 
    notebooks/Part1/05_Python/01_Introduction
+   notebooks/Part1/05_Python/02_Conceptos_basicos
+   notebooks/Part1/05_Python/03_Control_Flujo
+   notebooks/Part1/05_Python/04_Listas_tuplas
+
+
 
 
 Part 2
