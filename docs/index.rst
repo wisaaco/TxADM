@@ -31,7 +31,7 @@ Welcome to TxADM's documentation!
    :maxdepth: 1
    :caption: Git
 
-   notebooks/Part1/Git/01_Introduccion
+   notebooks/Part1/04_Git/01_Introduccion
 
 .. toctree::
    :maxdepth: 1
