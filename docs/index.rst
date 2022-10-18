@@ -31,7 +31,9 @@ Welcome to TxADM's documentation!
    :maxdepth: 1
    :caption: Git
 
-   notebooks/Part1/04_Git/01_Introduccion
+   notebooks/Part1/04_Git/git
+   notebooks/Part1/04_Git/git_r
+
 
 .. toctree::
    :maxdepth: 1
@@ -41,6 +43,17 @@ Welcome to TxADM's documentation!
    notebooks/Part1/05_Python/02_Conceptos_basicos
    notebooks/Part1/05_Python/03_Control_Flujo
    notebooks/Part1/05_Python/04_Listas_tuplas
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Pandas
+
+   notebooks/Part1/06_Pandas/01_Introduction
+   notebooks/Part1/06_Pandas/02_Agrupación_de_datos
+   notebooks/Part1/06_Pandas/03_Visualizacion
+   notebooks/Part1/06_Pandas/04_datos_perdidos
+
 
 
 
