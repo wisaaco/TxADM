@@ -32,7 +32,7 @@ Welcome to TxADM's documentation!
    :caption: Git
 
    notebooks/Part1/04_Git/git
-   notebooks/Part1/04_Git/git_r
+   notebooks/Part1/04_Git/git_R
 
 
 .. toctree::
@@ -49,7 +49,7 @@ Welcome to TxADM's documentation!
    :maxdepth: 1
    :caption: Pandas
 
-   notebooks/Part1/06_Pandas/01_Introduction
+   notebooks/Part1/06_Pandas/01_Introduccion
    notebooks/Part1/06_Pandas/02_Agrupación_de_datos
    notebooks/Part1/06_Pandas/03_Visualizacion
    notebooks/Part1/06_Pandas/04_datos_perdidos
