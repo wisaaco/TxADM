@@ -1,0 +1,53 @@
+---
+title: "Ejercicios dplyr"
+output: html_document
+date: "2022-10-10"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+0. Vamos a necesitar la librería dplyr:
+
+```{r}
+install.packages("dplyr")
+library(dplyr)
+```
+
+
+1. Volvamos a un conjunto de datos ya conocido: _Faculty Salary Data_ (ver [enlace](http://courses.washington.edu/b517/Datasets/datasets.html)) y carga en **R** su versión de valores separados por comas (extensión .csv) en una variable con nombre `salary`.
+
+```{r}
+salary = read.csv("http://courses.washington.edu/b517/Datasets/SalaryData.csv")
+View(salary)
+```
+
+2. Intentaremos sacar algunas conclusiones de estos datos. Primero eliminaremos las columnas `case`y `id`, sirven para identificar las diferentes filas y nosotros no lo necesitaremos.
+
+```{r}
+salary = select(salary, 3:dim(salary)[2])
+View(salary)
+```
+
+3. De momento nos quedaremos con los datos del año 1995, así que construye un nuevo _dataframe_ que solamente contenga estos datos, a continuación, usando el operador pipeline elimina la columna `year`.
+```{r}
+sl = filter(salary, year == 95) %>% select(-c(year))
+View(sl)
+```
+
+4. Transforma las columnas de tipo `chr` a tipo `factor`. No puedes hacerlo columna a columna, busca información de la función `lapply` en la ayuda de `RStudio`. ¿Que diferencias observas con la función `sapply`?
+
+```{r}
+sl[c("gender", "deg", "field", "rank")] = lapply(sl[c("gender", "deg", "field", "rank")], base::as.factor)
+str(sl)
+```
+5. Ordena el conjunto de datos de manera que primero veremos aquellos sueldos mayores. Como posiblemente tendremos múltiples ocurrencias con el mismo salario, el segundo criterio de ordenación será el año de inicio en la universidad.
+```{r}
+s = sl %>% arrange(desc(salary), yrdeg)
+```
+6. En breve volveremos a trabajar con estos datos. Es recomendable que los guardes en un fichero en tu carpeta de trabajo.
+
+```{r}
+write.csv(sl, row.names = FALSE, "data/salary_gender.csv")
+```
