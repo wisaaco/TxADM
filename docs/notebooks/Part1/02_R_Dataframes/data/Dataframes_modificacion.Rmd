@@ -1,0 +1,35 @@
+---
+title: "Dataframes operaciones"
+output: html_document
+date: "2022-10-06"
+---
+
+1. Construye un nuevo dataframe que solamente contenga muestras del tipo Setosa y su Petal.Width sea menor a 0.4 . A continuación concatena aquellas muestras del tipo Versicolor con el Petal.Width menor a 1.5.
+
+```{r}
+data(iris)
+setosa_petal = iris[iris$Species == "setosa" & iris$Petal.Width < 0.4,]
+versi_petal = iris[iris$Species == "versicolor" & iris$Petal.Width < 1.5,]
+total = rbind(setosa_petal, versi_petal)
+```
+
+2. Actualizar el _dataframe_ original con una nueva columna llamada `sepal.dif` con el vector de las diferencias absolutas entre la longitud del sépalo y la del pétalo.
+```{r}
+sepal.dif = abs(iris$Sepal.Length - iris$Petal.Length)
+iris$sepal.dif = sepal.dif
+```
+3. Añadir las columnas con los datos en el rango de que hemos obtenido en el ejemplo de la sección Definición de funciones. El nombre de las columnas debe ser el mismo que las originales pero debemos añadirle ‘.01’ al final.
+```{r}
+rango_01 = function(x){(x-min(x))/(max(x)-min(x))}
+iris2 = sapply(iris[1:4], FUN = rango_01)
+
+paste_01 = function(x){paste(x,".01", sep="")}
+colnames(iris2) = sapply(colnames(iris2), paste_01)
+
+iris3 = cbind(iris,iris2)
+```
+
+4. Crea una nueva versión del dataframe iris, llamada siri que tenga las columnas en orden inverso al original.
+```{r}
+siri = iris[dim(iris)[2]:1]
+```

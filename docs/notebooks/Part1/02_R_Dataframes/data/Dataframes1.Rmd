@@ -1,0 +1,46 @@
+---
+title: "Dataframes1"
+output: html_document
+date: "2022-10-06"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+1. Carga el dataset llamado iris que ya se encuentra en R. Encontraremos más información de este famoso conjunto de datos en el siguiente enlace.
+```{r}
+data(iris)
+```
+
+2. Aplica la función str, ¿de qué tipo de datos son sus columnas?
+```{r}
+str(iris)
+```
+3. ¿Cuántas columnas tiene? ¿Cuántas observaciones?
+```{r}
+print(paste("Columnas: ", dim(iris)[1]))
+print(paste("filas: ", dim(iris)[2]))
+```
+4. Muestra las tres últimas filas de este dataset.
+```{r}
+tail(iris,3)
+```
+5. Lee la descripción del conjunto de datos llamado Faculty Salary Data (ver enlace) y carga en R su versión de texto (extensión .txt) en una variable con nombre salary.
+```{r}
+salary = read.csv("http://courses.washington.edu/b517/Datasets/SalaryData.txt", header=TRUE, sep="")
+View(salary)
+```
+6. Muestra los nombres de las columnas por pantalla. Luego tradúcelos al castellano.
+```{r}
+print(names(salary))
+names(salary) = c("caso","id", "genero","grado","anyo_g" ,"campo" , "anyo_inicio", "año" ,   "ranking"  ,  "admin",   "salario" )
+
+```
+8. Verifica que el cambio se ha realizado de forma correcta, aplicando la función View a este dataframe.
+```{r}
+View(salary)
+```
+9. Guarda el dataframe en tu carpeta de trabajo de la asignatura con el nombre salario.txt. Haz lo mismo, pero ahora guárdalo en el escritorio de tu ordenador
+```{r}
+write.table(salary,"salario.txt")
+```

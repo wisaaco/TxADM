@@ -1,0 +1,75 @@
+---
+title: "Ejercicios_vectores"
+output: html_document
+date: "2022-10-06"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Ejercicios Vectores
+
+1. Cargar los datos contenidos en crimenUSA.txt
+2. ¿Cuantos valores tiene? Muestra por pantalla los 5 primeros.
+3. Ahora muestra los 5 últimos.
+4. ¿ Cuál es el valor medio de este vector? Y su desviación estándar?
+5. ¿Cual es el máximo valor en estos datos? ¿Se repite alguna vez? ¿Cuantas?
+6. ¿Que porcentaje de estados tienen mas de 4810 crímenes?
+7. Substituye el quinto valor por el valor 2000.
+
+1.Cargar los datos contenidos en crimenUSA.txt
+
+```{r}
+vector = scan("https://raw.githubusercontent.com/bmalcover/TxADM/main/docs/notebooks/Part1/01_R/data/crimenUSA.txt", sep=",")
+```
+2.¿Cuantos valores tiene? 
+```{r}
+longitud =length(vector)
+print(longitud)
+```
+Muestra por pantalla los 5 primeros.
+```{r}
+print(vector[1:5])
+```
+3. Ahora muestra los 5 últimos.
+```{r}
+print(c("5 últimos", vector[(longitud-4):longitud]))
+```
+
+4. ¿ Cuál es el valor medio de este vector? Y su desviación estándar?
+```{r}
+media = mean(vector)
+std = sd(vector)
+print(paste("media: ", media," desviación: ", std))
+```
+5. ¿Cual es el máximo valor en estos datos? ¿Se repite alguna vez? ¿Cuantas?
+```{r}
+valor_maximo = max(vector)
+
+vector_maximos = vector[vector == valor_maximo]
+longitud_maximos = length(vector_maximos)
+print(longitud_maximos)
+```
+
+6. ¿Que porcentaje de estados tienen mas de 4810 crímenes?
+```{r}
+mayores_4810 = vector[vector > 4810]
+porcentaje = (length(mayores_4810) / longitud) * 100
+print(paste(porcentaje, "%"))
+```
+7. Ejecuta la sentencia que tienes a continuación, esta descargará un vector con los nombres de los estados de USA en la variable `states`. Verifica que se ha cargado correctamente mostrando su contenido en la consola.
+```{r}
+states = scan("https://iamattila.com/wp-content/uploads/2021/07/usa-state-codes-abbreviations-names.csv", what=character(), sep="\n", skip = 1)
+```
+
+8. Crea un nuevo vector que contenga los nombres de los estados con más crímenes que la media.
+```{r}
+nuevo = states[vector > media]
+print(nuevo)
+```
+9. ¿Cuál es el estado con menor criminalidad?
+```{r}
+menor_idx = which.min(vector)
+menor.criminalidad = states[menor_idx]
+menor.criminalidad
+```

@@ -1,0 +1,41 @@
+---
+title: "Dataframes2"
+output: html_document
+date: "2022-10-06"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+1. Obtener todas las filas de la especie Versicolor en un nuevo dataframe, este debe llamarse: iris.vers.
+```{r}
+data(iris)
+iris.vers = iris[iris$Species == "versicolor",]
+```
+2. Obtener un vector llamado sepal.dif con la diferencia entre Sepal.Length y Sepal.Width de las plantas Versicolor.
+```{r}
+sepal.dif = iris.vers$Sepal.Length - iris.vers$Sepal.Width
+```
+3. Obtener nuevo vector que contenga solo los valores impares de la columna Sepal.Length.
+```{r}
+impares = seq(1,150,by=2)
+impares_Length = iris$Sepal.Length[impares]
+```
+4. Seleccionar todas las observaciones para las que el Sepal.Length sean menor que Sepal.Width.
+```{r}
+Length_may_width = iris[iris$Sepal.Length > iris$Sepal.Width,]
+```
+
+5. Seleccione aquellas observaciones Versicolor cuyo Sepal.Width sea mayor que el Sepal.Width promedio entre todas las especies. (+)
+```{r}
+media = mean(iris$Sepal.Width)
+print(c("Promedio sepal Width", media))
+versi_sepal_width = iris[iris$Species == "versicolor" & iris$Sepal.Width > media,]
+```
+6. Determinar el ancho promedio del sépalo para todas las plantas que son de la especie Virginica que tienen Petal.Length menores a 5 centímetros.
+```{r}
+ancho_m = mean(iris$Sepal.Width[iris$Species == "virginica" & iris$Petal.Length < 5])
+print(paste("Ancho promedio", ancho_m))
+```
