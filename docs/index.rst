@@ -91,6 +91,9 @@ Part 2
    notebooks/Part2/03_MachineLearningNotes/04_Regression
    notebooks/Part2/03_MachineLearningNotes/04b_Ejercicio1
    notebooks/Part2/03_MachineLearningNotes/04c_Ejercicio2
+   notebooks/Part2/03_MachineLearningNotes/05_Classification
+   notebooks/Part2/03_MachineLearningNotes/06_Clustering
+
    
 
 
