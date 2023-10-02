@@ -14,27 +14,21 @@ imc = (2*100) / (60*60)
 print(imc)
 ```
 
-2. Realizar un programa que nos calcule el interés simple anual, dado el saldo inicial y el interés anual. También nos interesa saber la ganancia mensual.
-La fórmula es: P * R * N  (P = Principal, R = Tasa, N = Número de años)
+2. Realizar un programa que nos calcule la cantidad de propina a dejar en un restaurante. Se debe declarar una variable con el total de la factura y otra con el porcentaje de propina que desea dejar. Luego, muestra la cantidad de propina a pagar.
 ```{r}
-si = 12000
-interes = 0.10
-isa = si * interes * 1
-print(isa)
-ganancia_mensual = isa / 12
-print(ganancia_mensual)
+factura = 10000
+porcentaje = 0.10
+total = (factura * porcentaje) + factura
+print(total)
 ```
 
-3. Realizar un programa que nos calcule el dinero que debemos pagar cada més si pedimos un préstamo con los siguientes datos: Importe préstamo= 1000 €, Interés mensual = 0.01, duración en meses = 24.
+3. Crea un programa que solicite que defina una variable con el radio de un círculo y calcule el área de ese círculo utilizando la fórmula Área = π radio^2*. A continuación, muestra el resultado en la pantalla
 
 ```{r}
-importe = 1000
-interes_mensual = 0.01
-duracion = 24
+radio = 50
+area = pi * (radio**2)
 
-mensual =  (importe / duracion) + (importe * interes_mensual)
-print(mensual)
-print(mensual*24)
+print(area)
 ```
 
 4. Si hubiéramos empezado a contar segundos a partir de las 12 campanadas que marcan el inicio de 2014, ¿a qué hora de qué día de qué año llegaríamos a los 250 millones de segundos?
