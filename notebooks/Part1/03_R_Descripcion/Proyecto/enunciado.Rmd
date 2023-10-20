@@ -1,0 +1,53 @@
+---
+title: "Practica Final R"
+author: "Gabriel Moyà"
+date: "2023-10-12"
+output:
+  pdf_document: default
+  html_document: default
+---
+# Introducción
+Tenemos un conjunto de 4 archivos que resumen la actividad de los usuarios en una red social.
+
+- El archivo usuarios.csv describe las características de cada uno de los usuarios. El índice de cada fila coincide con el número de usuario, es decir, su ID.
+- El archivo amigos.csv tiene una fila por cada relación de amistad entre dos usuarios.
+- El archivo posts.csv nos indica las publicaciones de cada usuario, su tipo y la fecha de publicación.
+- El archivo reacciones.csvnos indica las distintas reacciones de los usuarios, el tipo de reacción y su fecha.
+
+En este proyecto consideraremos las fechas como números enteros, ya que no las hemos trabajado.
+
+Vuestro trabajo consistirá en usar y combinar esta información para contestar diferentes cuestiones que aquí se plantean. 
+
+**Para cada pregunta se debe explicar el proceso que se lleva a cabo para conseguir la respuesta, En el caso que hagaís alguna suposición también la debeís justificar**. 
+
+Se valorará que el trabajo se entregue en formato markdown.
+
+La fecha de entrega es día 20 de Octubre a las 23:59.
+
+Dos trabajos que presenten alta similitud se considerarán suspendidos.
+
+0. Cargar las tablas de datos y realizar las transformaciones pertinentes de datos para poder trabajar con comodidad.
+
+1. ¿Cuál es el nombre más común en la red social? Muestra un diagrama de barras con los 5 nombres más usados.
+
+2. En la tabla de posts queremos añadir el nombre y el apellido del usuario que ha realizado dicho post.
+
+3. Crear una tabla con el número de posts de cada usuario en orden descendente y su número de amigos.
+
+4. La tabla de reacciones tiene información inconsistente con las otras tablas, elimina todos aquellos usuarios que no tenemos registrados en la tabla de usuarios.
+
+5. Muestra un nuevo diagrama de barras con el número de ocurrencias de cada tipo de reacción. En el gráfico, las barras deben estar coloreadas y debe aparecer una leyenda que explique el significado de cada color.
+
+6. Añade una nueva columna a la tabla del ejercicio 4 con el número de reacciones por usuario.
+
+7. Como puedes observar, hemos introducido NA en esta tabla. Susbtituye estos valores por 0. Ya no modificaremos más esta tabla, así que la vamos a guardar en formato csv, el separador debe ser una coma.
+
+8. Dibuja un diagrama de dispersión con la relación ente el numero de publicaciones y el número de reacciones de cada usuario. Nos sirve para sacar alguna conclusión?
+
+9. Seguiremos trabajando con la tabla del ejercicio anterior. Dibuja un diagrama de cajas que muestre las distribuciones de las columnas que contienen el número de posts, número de amigos y reacciones de cada usuario. Podemos sacar alguna conclusión de las reacciones?
+
+10. Que día hubo mas publicaciones y reacciones de forma combinada?
+
+11. Añade una nueva columna a la tabla de usuarios que sea el resultado de restar la fecha del último post con la fecha de registro de cada usuario.
+
+
