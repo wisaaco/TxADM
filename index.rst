@@ -24,6 +24,7 @@ Part 1
    notebooks/Part1/01_R/02_R_Overview
    notebooks/Part1/01_R/03_conceptos_basicos_R
    notebooks/Part1/01_R/05_Simple_data_structures
+   notebooks/Part1/01_R/06_Strings
    notebooks/Part1/02_R_Dataframes/0_Datos
    notebooks/Part1/02_R_Dataframes/01_Introduccion
    notebooks/Part1/03_R_Descripcion/01_Wrangling
