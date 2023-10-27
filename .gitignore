@@ -4,3 +4,7 @@ NOTAS
 docs/notebooks/Part2/02_Datapipelines/getData.py
 municipios.csv
 test.ipynb
+meta
+requirements.txt
+test
+train
