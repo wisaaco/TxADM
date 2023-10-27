@@ -2,6 +2,7 @@ _build/
 .DS_Store
 NOTAS
 docs/notebooks/Part2/02_Datapipelines/getData.py
+notebooks/Part2/03_MachineLearningNotes/data/data.zip
 municipios.csv
 test.ipynb
 meta
