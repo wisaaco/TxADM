@@ -51,22 +51,24 @@ Part 1
    notebooks/Part1/05_Python/04_Listas_tuplas
 
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Pandas
-
-   notebooks/Part1/06_Pandas/01_Introduccion
-   notebooks/Part1/06_Pandas/02_Agrupación_de_datos
-   notebooks/Part1/06_Pandas/03_Visualizacion
-   notebooks/Part1/06_Pandas/04_Gestion_ausencia_datos
-   notebooks/Part1/06_Pandas/Mi_primer_proyecto_version_py
-
 
 
 
 
 Part 2
 =================================
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Pandas
+
+   notebooks/Part2/00_Pandas/01_Introduccion
+   notebooks/Part2/00_Pandas/02_Agrupación_de_datos
+   notebooks/Part2/00_Pandas/03_Visualizacion
+   notebooks/Part2/00_Pandas/04_Gestion_ausencia_datos
+   notebooks/Part2/00_Pandas/Mi_primer_proyecto_version_py
+
 
 .. toctree::
    :maxdepth: 2
