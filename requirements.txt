@@ -1,0 +1,4 @@
+ipykernel
+nbsphinx
+pandas
+sphinx-rtd-theme
