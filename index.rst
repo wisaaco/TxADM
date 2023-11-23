@@ -65,11 +65,10 @@ Part 2
 
    notebooks/Part2/00_Pandas/01_Introduccion
    notebooks/Part2/00_Pandas/02_Agrupación_de_datos
-   notebooks/Part2/00_Pandas/03_Visualizacion
-   notebooks/Part2/00_Pandas/04_Gestion_ausencia_datos
-   notebooks/Part2/00_Pandas/Mi_primer_proyecto_version_py
-
-
+   notebooks/Part2/00_Pandas/03_Otras_acciones
+   notebooks/Part2/00_Pandas/04_Visualizacion
+   
+   
 .. toctree::
    :maxdepth: 2
    :caption: Librería Numpy
